@@ -1,6 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
 }
 
 .header {
@@ -25,6 +29,8 @@ body {
 .menu {
   background-color: #E8EFF9;
   padding: 64px 120px;
+  height: 100vh;
+  box-sizing: border-box;
 }
 
 .menu__images {
@@ -32,21 +38,28 @@ body {
   justify-content: space-between;
 }
 
-.menu__paragraphs {
-  margin-top: 80px;
+.nav {
+  margin-top: 64px;
   color: #292929;
-  font-size: 22px;
   font-style: normal;
   font-weight: 700;
-  line-height: 22px;
-  letter-spacing: 2px;
   text-transform: uppercase;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
-/* 
-.underli::after {
-  content: "";
-  display: block;
-  border-bottom: 1px solid black;
-  width: 165px;
-} */
+
+.nav__link {
+  color: #292929;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 22px;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+section {
+  height: 800px;
+}
