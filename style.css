@@ -6,6 +6,8 @@ body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   color: #292929; 
+  font-size: 16px;
+  line-height: 140%;
 }
 
 .header {
@@ -86,6 +88,10 @@ body {
   padding: 120px;
 }
 
+.recommended {
+  margin-bottom: 120px;
+}
+
 .recommended__title {
   margin-top: 0;
   margin-bottom: 64px;
@@ -94,6 +100,32 @@ body {
   font-weight: bold;
   text-align: center;
   letter-spacing: -1.5px;
+}
+
+.recommended__products {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.product__photo {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.product__title {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.product__category {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.product__price {
+  font-weight: bold;
+  margin: 0;
 }
 
 .categories__title {
