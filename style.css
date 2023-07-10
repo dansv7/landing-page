@@ -89,6 +89,12 @@ body {
   background-color: white;
 }
 
+@media (max-width: 640px) {
+  .main {
+    padding: 40px;
+  }
+}
+
 .recommended {
   margin-bottom: 120px;
 }
@@ -107,6 +113,12 @@ body {
   display: flex;
   gap: 24px;
   justify-content: center;
+}
+
+@media (max-width: 640px) {
+  .recommended__products {
+    flex-direction: column;
+  }
 }
 
 .product {
